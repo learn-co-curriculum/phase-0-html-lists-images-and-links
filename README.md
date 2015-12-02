@@ -4,3 +4,5 @@
 
 <p><a href="https://www.youtube.com/watch?v=tuDKQxfiXmY">HTML Fundamentals</a></p>
 
+
+<a href='https://learn.co/lessons/html-fundamentals' data-visibility='hidden'>View this lesson on Learn.co</a>
