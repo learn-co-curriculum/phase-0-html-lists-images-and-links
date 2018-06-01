@@ -117,9 +117,9 @@ fully defined URL path. This is likely the type of link you see most often.
 
 ### Identify HTML validation tools
 
-It's easy to make a typo or miss a piece of punctuation when writing HTML.
-Fortunately, we have a tool that will check our markup for us and point out any
-errors. To validate our HTML, we can use the [W3 HTML validator]
+It's easy to forget a closing HTML tag or miss a piece of punctuation when
+writing HTML. Fortunately, we have a tool that will check our markup for us and
+point out any errors. To validate our HTML, we can use the [W3 HTML validator]
 (http://validator.w3.org).
 
 ## Resources
@@ -129,9 +129,9 @@ errors. To validate our HTML, we can use the [W3 HTML validator]
 
 ## Conclusion
 
-Now that you've taken a first look at these new HTML elements, you're prepared
-to practice them in labs, where you'll learn more about each one and how to use
-it effectively.
+Now that you've taken a first look at these new HTML elements, you'll be better
+prepared to practice them in labs, where you'll learn more about each one and
+how to use it effectively.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/html-
 fundamentals' title='HTML Fundamentals'>HTML Fundamentals</a> on Learn.co and
