@@ -124,8 +124,7 @@ point out any errors. To validate our HTML, we can use the [W3 HTML validator]
 
 ## Resources
 
-* [HTML Fundamentals overview video]
-(https://www.youtube.com/watch?v=tuDKQxfiXmY)
+* [HTML Fundamentals overview video](https://www.youtube.com/watch?v=tuDKQxfiXmY)
 
 ## Conclusion
 
