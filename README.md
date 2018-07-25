@@ -48,7 +48,7 @@ types of items.
 <dl>
   <dt>First term</dt>
   <dd>Term definition</dd>
-</ol>
+</dl>
 ```
 
 ### Identify images
