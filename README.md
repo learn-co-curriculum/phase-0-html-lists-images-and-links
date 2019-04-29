@@ -60,7 +60,7 @@ To include an image in our page, we use an `img` tag.
 width="800" height="600">
 ```
 
-There are two noteable things about the `img` tag. The first is that it has no
+There are two notable things about the `img` tag. The first is that it has no
 closing tag. This tag closes itself. Secondly, it handles a lot of attributes.
 Our `alt` attribute provides descriptive text the browser can display if it
 can't find the image file. The browser can also display the `title` text to give
