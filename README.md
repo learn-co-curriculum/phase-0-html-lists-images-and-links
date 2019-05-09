@@ -10,14 +10,13 @@
 
 ## Introduction
 
-After learning the basics of HTML, including tag and document structure, you
-might be wondering what else is available to use to build out full webpages. How
-do you display an image? How do you add a readable list of topics? How do you
-link page elements beyond text? Now you're ready to explore these fundamental
-tools. Here's a high-level overview before you dive into practicing with the
-labs.
+You might be wondering what else is available to use to build out full webpages
+now that you are more familiar with the basics of HTML. How do you display an
+image? How do you add a formatted list of topics? How do you link page elements
+beyond text? Now you're ready to explore these fundamental tools. Here's a
+high-level overview before you dive into practicing with the labs.
 
-### Identify ordered, unordered and definition lists
+### Identify Ordered, Unordered and Definition Lists
 
 When we want to present a list of items in a clear, readable format, we turn to
 the HTML unordered list, represented by the the `ul` tag.
@@ -52,7 +51,7 @@ types of items.
 </dl>
 ```
 
-### Identify images
+### Identify Images
 
 To include an image in our page, we use an `img` tag.
 
@@ -61,19 +60,22 @@ To include an image in our page, we use an `img` tag.
 width="800" height="600">
 ```
 
-There are two notable things about the `img` tag. The first is that it has no
-closing tag. This tag closes itself. Secondly, it handles a lot of attributes.
-Our `alt` attribute provides descriptive text the browser can display if it
+There are two notable things about the `img` tag: The first is that it does not
+have a closing tag. The image tag closes itself. Secondly, it handles a lot of
+_attributes_. Attributes are special keywords used on the tag to control the
+element's behavior, or provide additional information about the HTML element.
+
+The `alt` attribute provides descriptive text the browser can display if it
 can't find the image file. The browser can also display the `title` text to give
 the user more information about the image. The `width` and `height` attributes
 define the size of the image that shows up in the browser. 
 
-### Identify links
+### Identify Links
 
 You might be familiar with basic link structure already, but here are other ways
-we can power them up.
+we can use them.
 
-We begin with a standard text hyperlink.
+Beginning with a standard text hyperlink, we can wrap other elements inside of them.
 
 ```
 <a href="http://example.com/">This is a link</a>
@@ -88,13 +90,13 @@ the `a` tags with our image tag.
 </a>
 ```
 
-Or what if we want a link that will direct to an email address?
+What about a link that will direct to an email address?
 
 ```
 <a href="mailto:webmaster@example.com">Send an email</a>
 ```
 
-Sometimes we might want to link to another, specific location on the same
+Sometimes we might want to link to a specific location on the same
 webpage. We can then target an element that we identified or classified earlier.
 
 ```
@@ -117,6 +119,11 @@ fully defined URL path. This is likely the type of link you see most often.
 ```
 
 ### Identify HTML validation tools
+
+An HTML validator is used to check HTML markup elements for syntax errors.
+Syntax errors, such as open tags, extra spaces, or forgotten quotation marks,
+can cause a web page to look drastically different than the creator intended, or
+render correctly in one browser, but not in another.
 
 It's easy to forget a closing HTML tag or miss a piece of punctuation when
 writing HTML. Fortunately, we have a tool that will check our markup for us and
