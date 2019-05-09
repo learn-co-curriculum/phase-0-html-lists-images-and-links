@@ -1,6 +1,14 @@
 # HTML Fundamentals
 
-## Problem Statement
+## Learning Goals
+
+1. Identify ordered, unordered and definition lists
+2. Identify images
+3. Identify links
+4. Identify HTML validation tools
+
+
+## Introduction
 
 After learning the basics of HTML, including tag and document structure, you
 might be wondering what else is available to use to build out full webpages. How
@@ -8,13 +16,6 @@ do you display an image? How do you add a readable list of topics? How do you
 link page elements beyond text? Now you're ready to explore these fundamental
 tools. Here's a high-level overview before you dive into practicing with the
 labs.
-
-## Objectives
-
-1. Identify ordered, unordered and definition lists
-2. Identify images
-3. Identify links
-4. Identify HTML validation tools
 
 ### Identify ordered, unordered and definition lists
 
@@ -122,16 +123,17 @@ writing HTML. Fortunately, we have a tool that will check our markup for us and
 point out any errors. To validate our HTML, we can use the [W3 HTML validator]
 (http://validator.w3.org).
 
-## Resources
-
-* [HTML Fundamentals overview video](https://www.youtube.com/watch?v=tuDKQxfiXmY)
-
 ## Conclusion
 
 Now that you've taken a first look at these new HTML elements, you'll be better
 prepared to practice them in labs, where you'll learn more about each one and
 how to use it effectively.
 
+## Resources
+
+* [HTML Fundamentals overview video](https://www.youtube.com/watch?v=tuDKQxfiXmY)
+
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/html-
 fundamentals' title='HTML Fundamentals'>HTML Fundamentals</a> on Learn.co and
 start learning to code for free.</p>
+
