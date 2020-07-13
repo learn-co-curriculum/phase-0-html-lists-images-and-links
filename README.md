@@ -1,4 +1,4 @@
-# HTML Fundamentals
+# HTML Fundamentals: Lists, Images and Links
 
 ## Learning Goals
 
@@ -6,7 +6,6 @@
 2. Identify images
 3. Identify links
 4. Identify HTML validation tools
-
 
 ## Introduction
 
