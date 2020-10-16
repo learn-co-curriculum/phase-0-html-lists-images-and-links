@@ -139,7 +139,3 @@ how to use it effectively.
 
 * [HTML Fundamentals overview video](https://www.youtube.com/watch?v=tuDKQxfiXmY)
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/html-
-fundamentals' title='HTML Fundamentals'>HTML Fundamentals</a> on Learn.co and
-start learning to code for free.</p>
-
