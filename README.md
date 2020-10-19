@@ -138,4 +138,3 @@ how to use it effectively.
 ## Resources
 
 * [HTML Fundamentals overview video](https://www.youtube.com/watch?v=tuDKQxfiXmY)
-
