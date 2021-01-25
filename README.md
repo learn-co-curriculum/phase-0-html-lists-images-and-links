@@ -2,10 +2,10 @@
 
 ## Learning Goals
 
-1. Identify ordered, unordered and definition lists
-2. Identify images
-3. Identify links
-4. Identify HTML validation tools
+- Identify ordered, unordered and definition lists
+- Identify images
+- Identify links
+- Identify HTML validation tools
 
 ## Introduction
 
