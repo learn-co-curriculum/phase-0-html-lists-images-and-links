@@ -18,7 +18,7 @@ high-level overview before you dive into practicing with the labs.
 ### Identify Ordered, Unordered and Definition Lists
 
 When we want to present a list of items in a clear, readable format, we turn to
-the HTML unordered list, represented by the the `ul` tag.
+the HTML unordered list, represented by the `ul` tag.
 
 ```
 <ul>
