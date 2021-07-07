@@ -1,4 +1,4 @@
-# HTML Fundamentals: Lists, Images and Links
+# HTML Lists, Images and Links
 
 ## Learning Goals
 
