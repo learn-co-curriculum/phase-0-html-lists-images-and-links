@@ -55,8 +55,7 @@ types of items.
 To include an image in our page, we use an `img` tag.
 
 ```
-<img src="myimage.jpg" alt="Alternative Text" title="Display Title"
-width="800" height="600">
+<img src="myimage.jpg" alt="Alternative Text" title="Display Title" width="800" height="600">
 ```
 
 There are two notable things about the `img` tag: The first is that it does not
