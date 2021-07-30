@@ -133,7 +133,3 @@ point out any errors. To validate our HTML, we can use the [W3 HTML validator]
 Now that you've taken a first look at these new HTML elements, you'll be better
 prepared to practice them in labs, where you'll learn more about each one and
 how to use it effectively.
-
-## Resources
-
-* [HTML Fundamentals overview video](https://www.youtube.com/watch?v=tuDKQxfiXmY)
