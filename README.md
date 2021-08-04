@@ -20,7 +20,7 @@ high-level overview before you dive into practicing with the labs.
 When we want to present a list of items in a clear, readable format, we turn to
 the HTML unordered list, represented by the `ul` tag.
 
-```
+```html
 <ul>
   <li>One item</li>
   <li>Another item</li>
@@ -30,7 +30,7 @@ the HTML unordered list, represented by the `ul` tag.
 If it's important to distinguish a particular order of the items (as for a
 recipe or ranking), we use an ordered list, or the `ol` tag.
 
-```
+```html
 <ol>
   <li>First item</li>
   <li>Second item</li>
@@ -43,7 +43,7 @@ contained in the larger `ul` or `ol` container.
 Another type of list we can use is a definition list, which defines specific
 types of items.
 
-```
+```html
 <dl>
   <dt>First term</dt>
   <dd>Term definition</dd>
@@ -54,8 +54,14 @@ types of items.
 
 To include an image in our page, we use an `img` tag.
 
-```
-<img src="myimage.jpg" alt="Alternative Text" title="Display Title" width="800" height="600">
+```html
+<img
+  src="myimage.jpg"
+  alt="Alternative Text"
+  title="Display Title"
+  width="800"
+  height="600"
+/>
 ```
 
 There are two notable things about the `img` tag: The first is that it does not
@@ -66,7 +72,7 @@ element's behavior, or provide additional information about the HTML element.
 The `alt` attribute provides descriptive text the browser can display if it
 can't find the image file. The browser can also display the `title` text to give
 the user more information about the image. The `width` and `height` attributes
-define the size of the image that shows up in the browser. 
+define the size of the image that shows up in the browser.
 
 ### Identify Links
 
@@ -75,29 +81,29 @@ we can use them.
 
 Beginning with a standard text hyperlink, we can wrap other elements inside of them.
 
-```
+```html
 <a href="http://example.com/">This is a link</a>
 ```
 
 What if we want to link an image instead of text? We can replace the text within
 the `a` tags with our image tag.
 
-```
+```html
 <a href="http://example.com/">
-  <img src="myimage.jpg" alt="Alternative Text">
+  <img src="myimage.jpg" alt="Alternative Text" />
 </a>
 ```
 
 What about a link that will direct to an email address?
 
-```
+```html
 <a href="mailto:webmaster@example.com">Send an email</a>
 ```
 
 Sometimes we might want to link to a specific location on the same
 webpage. We can then target an element that we identified or classified earlier.
 
-```
+```html
 <p id="tips">Useful Tips Section</p>
 <a href="#tips">Jump to the Useful Tips Section</a>
 ```
@@ -105,14 +111,14 @@ webpage. We can then target an element that we identified or classified earlier.
 When considering what location links point to, you will choose between relative
 or absolute links. A relative link directs to content within the same website.
 
-```
+```html
 <a href="about.html">This is a relative URL link</a>
 ```
 
 An absolute link, on the other hand, links to external content and requires a
 fully defined URL path. This is likely the type of link you see most often.
 
-```
+```html
 <a href="http://example.com/">This is an absolute URL link</a>
 ```
 
@@ -125,8 +131,8 @@ render correctly in one browser, but not in another.
 
 It's easy to forget a closing HTML tag or miss a piece of punctuation when
 writing HTML. Fortunately, we have a tool that will check our markup for us and
-point out any errors. To validate our HTML, we can use the [W3 HTML validator]
-(http://validator.w3.org).
+point out any errors. To validate our HTML, we can use the
+[W3 HTML validator](http://validator.w3.org).
 
 ## Conclusion
 
