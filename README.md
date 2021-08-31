@@ -77,7 +77,7 @@ To include an image in our page, we use an `img` tag.
 
 ```html
 <img
-  src="https://via.placeholder.com/150.png"
+  src="https://via.placeholder.com/800x600.png"
   alt="Alternative Text"
   title="Display Title"
   width="800"
