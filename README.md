@@ -27,6 +27,13 @@ the HTML unordered list, represented by the `ul` tag.
 </ul>
 ```
 
+Here is how the HTML above looks when rendered in the browser:
+
+<ul>
+  <li>One item</li>
+  <li>Another item</li>
+</ul>
+
 If it's important to distinguish a particular order of the items (as for a
 recipe or ranking), we use an ordered list, or the `ol` tag.
 
@@ -36,6 +43,13 @@ recipe or ranking), we use an ordered list, or the `ol` tag.
   <li>Second item</li>
 </ol>
 ```
+
+Here is how the HTML above looks when rendered in the browser:
+
+<ol>
+  <li>First item</li>
+  <li>Second item</li>
+</ol>
 
 Notice the nesting of our items within the lists. Each `li` is a list item
 contained in the larger `ul` or `ol` container.
@@ -50,13 +64,20 @@ types of items.
 </dl>
 ```
 
+Here is how the HTML above looks when rendered in the browser:
+
+<dl>
+  <dt>First term</dt>
+  <dd>Term definition</dd>
+</dl>
+
 ### Identify Images
 
 To include an image in our page, we use an `img` tag.
 
 ```html
 <img
-  src="myimage.jpg"
+  src="https://via.placeholder.com/150.png"
   alt="Alternative Text"
   title="Display Title"
   width="800"
@@ -74,6 +95,16 @@ can't find the image file. The browser can also display the `title` text to give
 the user more information about the image. The `width` and `height` attributes
 define the size of the image that shows up in the browser.
 
+Here is how the image element above looks when rendered in the browser:
+
+<img
+  src="https://via.placeholder.com/800x600.png"
+  alt="Alternative Text"
+  title="Display Title"
+  width="800"
+  height="600"
+/>
+
 ### Identify Links
 
 You might be familiar with basic link structure already, but here are other ways
@@ -85,20 +116,34 @@ Beginning with a standard text hyperlink, we can wrap other elements inside of t
 <a href="http://example.com/">This is a link</a>
 ```
 
+Here is how the HTML above looks when rendered in the browser:
+
+<a href="http://example.com/">This is a link</a>
+
 What if we want to link an image instead of text? We can replace the text within
 the `a` tags with our image tag.
 
 ```html
 <a href="http://example.com/">
-  <img src="myimage.jpg" alt="Alternative Text" />
+  <img src="https://via.placeholder.com/800x600.png" alt="Alternative Text" />
 </a>
 ```
+
+Here is how the HTML above looks when rendered in the browser:
+
+<a href="http://example.com/">
+  <img src="https://via.placeholder.com/800x600.png" alt="Alternative Text" />
+</a>
 
 What about a link that will direct to an email address?
 
 ```html
 <a href="mailto:webmaster@example.com">Send an email</a>
 ```
+
+Here is how the HTML above looks when rendered in the browser:
+
+<a href="mailto:webmaster@example.com">Send an email</a>
 
 Sometimes we might want to link to a specific location on the same
 webpage. We can then target an element that we identified or classified earlier.
@@ -108,6 +153,11 @@ webpage. We can then target an element that we identified or classified earlier.
 <a href="#tips">Jump to the Useful Tips Section</a>
 ```
 
+Here is how the HTML above looks when rendered in the browser:
+
+<p id="tips">Useful Tips Section</p>
+<a href="#tips">Jump to the Useful Tips Section</a>
+
 When considering what location links point to, you will choose between relative
 or absolute links. A relative link directs to content within the same website.
 
@@ -115,12 +165,20 @@ or absolute links. A relative link directs to content within the same website.
 <a href="about.html">This is a relative URL link</a>
 ```
 
+Here is how the HTML above looks when rendered in the browser:
+
+<a href="about.html">This is a relative URL link</a>
+
 An absolute link, on the other hand, links to external content and requires a
 fully defined URL path. This is likely the type of link you see most often.
 
 ```html
 <a href="http://example.com/">This is an absolute URL link</a>
 ```
+
+Here is how the HTML above looks when rendered in the browser:
+
+<a href="http://example.com/">This is an absolute URL link</a>
 
 ### Identify HTML validation tools
 
