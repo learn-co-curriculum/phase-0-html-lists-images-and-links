@@ -1,4 +1,4 @@
-# HTML Lists, Images and Links
+# HTML Elements
 
 ## Learning Goals
 
